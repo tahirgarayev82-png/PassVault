@@ -43,13 +43,11 @@ python3 passvault.py delete myvault.json --name github
 
 ## ⚙️ Configuration / Optional Modifications
 
-404 error threshold: --404-thresh N
+Use a strong master password to unlock full access
 
-5xx error threshold: --5xx-thresh N
+Increase KDF iterations (iterations) in the JSON file for higher security
 
-JSON report: --json report.json
+Extend functionality: CLI autofill, password generator, or external API integration
 
-CSV of top URLs: --csv-paths top_paths.csv
-
-To unlock full analysis capabilities, modify thresholds, add custom filtering rules, or integrate graph generation for IP activity.
+Important: Do not use a weak master password, as it compromises encryption security.
 
